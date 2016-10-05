@@ -1,6 +1,8 @@
+
 p.botonHome > a {
     margin-right: 40px;
-    margin-left:40p
+    margin-left:40p;
+    margin-top: 80px;
 }
 
 .btn-green{
