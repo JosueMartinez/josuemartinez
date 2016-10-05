@@ -11,44 +11,37 @@
     <meta name="robots" content="all,follow">
     <meta name="googlebot" content="index,follow,snippet,archive">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>JOSUE MARTINEZ | Software & Web Developer</title>
-
     <meta name="keywords" content="">
 
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,100%7CRoboto:400,700,300,100' rel='stylesheet' type='text/css'>
-
     <!-- Bootstrap and Font Awesome css -->
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Theme stylesheet -->
-    <link href="css/style.blue.css" rel="stylesheet" id="theme-stylesheet">
-
-    <!-- Custom stylesheet - for your changes -->
-    <link href="css/custom.css" rel="stylesheet">
-
+    <link href="css/style.green.css" rel="stylesheet" id="theme-stylesheet">
+  
     <!-- owl carousel css -->
-
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/owl.theme.css" rel="stylesheet">
-
     <!-- CSS Animations -->
     <link href="css/animate.css" rel="stylesheet">
-
+      <!-- Custom stylesheet - for your changes -->
+    <link href="css/custom.css" rel="stylesheet">
     <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-
+    <link rel="shortcut icon" href="favicon_it.png" type="image/x-icon">
     <!-- Mordernizr -->
     <script src="js/modernizr-2.6.2.min.js"></script>
-
+    <!--Angular JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="js/app.js"></script>
     <!-- Responsivity for older IE -->
     <!--[if lt IE 9]>
     <script src="js/respond.min.js"></script>
 <![endif]-->
 </head>
 
-<body data-spy="scroll" data-target="#navigation" data-offset="120">
+<body data-spy="scroll" data-target="#navigation" data-offset="120" ng-app="app">
 
     <!-- *** NAVBAR ***
 _________________________________________________________ -->
@@ -103,15 +96,17 @@ _________________________________________________________ -->
                 <div class="container">
                     <div class="row">
                         <div class="carousel-caption">
+                            </br>
+                            <h1 data-animate="fadeInDown">Hello!</h1>
+                            <!--<h2 data-animate="slideInUp" style="color: black">I grind HTML and CSS and then weld them with PHP into beautiful and efficient websites.</h2>-->
+                            <h2 data-animate="slideInUp" style="color: black">I'm a professional software and web developer commited in building efficient solutions</h2>
                             <div data-animate="fadeInDown" class="logo">
                                 <!--<img src="img/logo-big.png" alt="logo" width="130">-->
-                                <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 mt-big" data-animate="bounceIn">
-                                    <img src="img/about.jpg" class="image img-circle img-responsive" alt="This is me - IT worker">
-                                </div>
+                                <img src="img/devAvatar.png" alt="logo" width="260">
                             </div>
-                            </br>
+                            <!--</br>
                             <h1 data-animate="fadeInDown">Hello, hola, नमस्ते !</h1>
-                            <h2 data-animate="slideInUp">I grind HTML and CSS and then weld them with PHP into beautiful and efficient websites.</h2>
+                            <h2 data-animate="slideInUp">I grind HTML and CSS and then weld them with PHP into beautiful and efficient websites.</h2>-->
                         </div>
                     </div>
                 </div>
@@ -136,14 +131,20 @@ _________________________________________________________ -->
 
                             <div class="col-sm-6 text-left" data-animate="fadeInUp">
 
-                                <p>An sincerity so extremity he additions. Her yet <strong>there truth merit</strong>. Mrs all projecting favourable now unpleasing. Son law garden chatty temper. Oh children provided to mr elegance marriage strongly. Off can
-                                    admiration prosperous now devonshire diminution law.</p>
+                                <p>An sincerity so extremity he additions. Her yet <strong>there truth merit</strong>. Mrs all
+                                    projecting favourable now unpleasing. Son law garden chatty temper. Oh children provided
+                                    to mr elegance marriage strongly. Off can admiration prosperous now devonshire diminution
+                                    law.</p>
 
-                                <p>Received overcame oh sensible so at an. Formed do change merely to county it. <strong>Am separate contempt</strong> domestic to to oh. On relation my so addition branched. Put hearing cottage she norland letters equally prepare
-                                    too. Replied exposed savings he no viewing as up. Soon body add him hill. No father living really people estate if. Mistake do produce beloved demesne if am pursuit.</p>
+                                <p>Received overcame oh sensible so at an. Formed do change merely to county it. <strong>Am separate contempt</strong>                                    domestic to to oh. On relation my so addition branched. Put hearing cottage she norland
+                                    letters equally prepare too. Replied exposed savings he no viewing as up. Soon body add
+                                    him hill. No father living really people estate if. Mistake do produce beloved demesne
+                                    if am pursuit.</p>
 
-                                <p>An sincerity so extremity he additions. Her yet <strong>there truth merit</strong>. Mrs all projecting favourable now unpleasing. Son law garden chatty temper. Oh children provided to mr elegance marriage strongly. Off can
-                                    admiration prosperous now devonshire diminution law.</p>
+                                <p>An sincerity so extremity he additions. Her yet <strong>there truth merit</strong>. Mrs all
+                                    projecting favourable now unpleasing. Son law garden chatty temper. Oh children provided
+                                    to mr elegance marriage strongly. Off can admiration prosperous now devonshire diminution
+                                    law.</p>
 
                             </div>
 
@@ -154,7 +155,8 @@ _________________________________________________________ -->
                                         PHP
                                     </div>
                                     <div class="progress">
-                                        <div class="progress-bar progress-bar-skill1" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                        <div class="progress-bar progress-bar-skill1" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                                            style="width: 60%;">
                                             <span class="sr-only">60</span>
                                         </div>
                                     </div>
@@ -165,7 +167,8 @@ _________________________________________________________ -->
                                         Javascript
                                     </div>
                                     <div class="progress">
-                                        <div class="progress-bar progress-bar-skill2" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                        <div class="progress-bar progress-bar-skill2" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+                                            style="width: 70%;">
                                             <span class="sr-only">70</span>
                                         </div>
                                     </div>
@@ -176,7 +179,8 @@ _________________________________________________________ -->
                                         HTML coding
                                     </div>
                                     <div class="progress">
-                                        <div class="progress-bar progress-bar-skill3" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                        <div class="progress-bar progress-bar-skill3" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+                                            style="width: 80%;">
                                             <span class="sr-only">80</span>
                                         </div>
                                     </div>
@@ -187,7 +191,8 @@ _________________________________________________________ -->
                                         SEO
                                     </div>
                                     <div class="progress">
-                                        <div class="progress-bar progress-bar-skill4" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                        <div class="progress-bar progress-bar-skill4" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                                            style="width: 90%;">
                                             <span class="sr-only">90</span>
                                         </div>
                                     </div>
@@ -198,7 +203,8 @@ _________________________________________________________ -->
                                         SEM
                                     </div>
                                     <div class="progress">
-                                        <div class="progress-bar progress-bar-skill5" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                        <div class="progress-bar progress-bar-skill5" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+                                            style="width: 70%;">
                                             <span class="sr-only">70</span>
                                         </div>
                                     </div>
@@ -233,23 +239,28 @@ _________________________________________________________ -->
                             <div class="icon"><i class="fa fa-search"></i>
                             </div>
                             <h3 class="heading">Consulting</h3>
-                            <p>On on produce colonel pointed. Just four sold need over how any. In to september suspicion determine he prevailed admitting. On adapted an as affixed limited on. Giving cousin warmly things no spring mr be abroad. Relation
-                                breeding be as repeated strictly followed margaret. One gravity son brought shyness waiting regular led ham.</p>
+                            <p>On on produce colonel pointed. Just four sold need over how any. In to september suspicion determine
+                                he prevailed admitting. On adapted an as affixed limited on. Giving cousin warmly things
+                                no spring mr be abroad. Relation breeding be as repeated strictly followed margaret. One
+                                gravity son brought shyness waiting regular led ham.</p>
                         </div>
 
                         <div class="col-md-4" data-animate="fadeInUp">
                             <div class="icon"><i class="fa fa-html5"></i>
                             </div>
                             <h3 class="heading">HTML coding</h3>
-                            <p>Manor we shall merit by chief wound no or would. Oh towards between subject passage sending mention or it. Sight happy do burst fruit to woody begin at. Assurance perpetual he in oh determine as.</p>
+                            <p>Manor we shall merit by chief wound no or would. Oh towards between subject passage sending mention
+                                or it. Sight happy do burst fruit to woody begin at. Assurance perpetual he in oh determine
+                                as.</p>
                         </div>
 
                         <div class="col-md-4" data-animate="fadeInUp">
-                            <div class="icon"><i class="fa fa-tachometer"></i> 
+                            <div class="icon"><i class="fa fa-tachometer"></i>
                             </div>
                             <h3 class="heading">PHP webdelopment</h3>
-                            <p>Rooms oh fully taken by worse do. Points afraid but may end law lasted. Was out laughter raptures returned outweigh. Luckily cheered colonel me do we attacks on highest enabled. Tried law yet style child. Bore of true of no
-                                be deal.</p>
+                            <p>Rooms oh fully taken by worse do. Points afraid but may end law lasted. Was out laughter raptures
+                                returned outweigh. Luckily cheered colonel me do we attacks on highest enabled. Tried law
+                                yet style child. Bore of true of no be deal.</p>
                         </div>
 
                     </div>
@@ -285,15 +296,18 @@ _________________________________________________________ -->
                     <div class="mb20">
                         <h2 class="title" data-animate="fadeInUp">My customers said<br /><span>about me</span></h2>
 
-                        <p class="lead text-center" data-animate="fadeInUp">I am always glad to hear that my customers leave satisfied. Some of them shared with you their insights on our cooperation.</p>
+                        <p class="lead text-center" data-animate="fadeInUp">I am always glad to hear that my customers leave satisfied. Some of them shared with you their insights
+                            on our cooperation.</p>
                     </div>
 
                     <ul class="owl-carousel testimonials same-height-row" data-animate="fadeInUp">
                         <li class="item">
                             <div class="testimonial same-height-always">
                                 <div class="text">
-                                    <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly,
-                                        slightly domed and divided by arches into stiff sections.</p>
+                                    <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed
+                                        in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted
+                                        his head a little he could see his brown belly, slightly domed and divided by arches
+                                        into stiff sections.</p>
                                 </div>
                                 <div class="bottom">
                                     <div class="icon"><i class="fa fa-quote-left"></i>
@@ -309,8 +323,9 @@ _________________________________________________________ -->
                         <li class="item">
                             <div class="testimonial same-height-always">
                                 <div class="text">
-                                    <p>The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. "What's happened to me?
-                                        " he thought. It wasn't a dream.</p>
+                                    <p>The bedding was hardly able to cover it and seemed ready to slide off any moment. His
+                                        many legs, pitifully thin compared with the size of the rest of him, waved about
+                                        helplessly as he looked. "What's happened to me? " he thought. It wasn't a dream.</p>
                                 </div>
                                 <div class="bottom">
                                     <div class="icon"><i class="fa fa-quote-left"></i>
@@ -326,10 +341,13 @@ _________________________________________________________ -->
                         <li class="item">
                             <div class="testimonial same-height-always">
                                 <div class="text">
-                                    <p>His room, a proper human room although a little too small, lay peacefully between its four familiar walls.</p>
+                                    <p>His room, a proper human room although a little too small, lay peacefully between its
+                                        four familiar walls.</p>
 
-                                    <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded
-                                        frame.</p>
+                                    <p>A collection of textile samples lay spread out on the table - Samsa was a travelling
+                                        salesman - and above it there hung a picture that he had recently cut out of an illustrated
+                                        magazine and housed in a nice, gilded frame.
+                                    </p>
                                 </div>
                                 <div class="bottom">
                                     <div class="icon"><i class="fa fa-quote-left"></i>
@@ -345,8 +363,10 @@ _________________________________________________________ -->
                         <li class="item">
                             <div class="testimonial same-height-always">
                                 <div class="text">
-                                    <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather.
-                                        Drops of rain could be heard hitting the pane, which made him feel quite sad.</p>
+                                    <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy
+                                        fur muff that covered the whole of her lower arm towards the viewer. Gregor then
+                                        turned to look out the window at the dull weather. Drops of rain could be heard hitting
+                                        the pane, which made him feel quite sad.</p>
                                 </div>
 
                                 <div class="bottom">
@@ -363,9 +383,13 @@ _________________________________________________________ -->
                         <li class="item">
                             <div class="testimonial same-height-always">
                                 <div class="text">
-                                    <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather.
-                                        Drops of rain could be heard hitting the pane, which made him feel quite sad. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite
-                                        sad.</p>
+                                    <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy
+                                        fur muff that covered the whole of her lower arm towards the viewer. Gregor then
+                                        turned to look out the window at the dull weather. Drops of rain could be heard hitting
+                                        the pane, which made him feel quite sad. Gregor then turned to look out the window
+                                        at the dull weather. Drops of rain could be heard hitting the pane, which made him
+                                        feel quite sad.
+                                    </p>
                                 </div>
 
                                 <div class="bottom">
@@ -400,36 +424,32 @@ _________________________________________________________ -->
                         <div class="item">
                             <div class="icon"><i class="fa fa-align-justify"></i>
                             </div>
-                            <h4><span class="counter">120</span><br>
+                            <h4><span class="counter">120</span><br> Websites
 
-			Websites</h4>
+                            </h4>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6" data-animate="fadeInUp">
                         <div class="item">
                             <div class="icon"><i class="fa fa-users"></i>
                             </div>
-                            <h4><span class="counter">50</span><br>  
-
-			Satisfied Clients</h4>
+                            <h4><span class="counter">50</span><br> Satisfied Clients</h4>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6" data-animate="fadeInUp">
                         <div class="item">
                             <div class="icon"><i class="fa fa-copy"></i>
                             </div>
-                            <h4><span class="counter">320</span><br>
+                            <h4><span class="counter">320</span><br> Projects
 
-			Projects</h4>
+                            </h4>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6" data-animate="fadeInUp">
                         <div class="item">
                             <div class="icon"><i class="fa fa-font"></i>
                             </div>
-                            <h4><span class="counter">333</span><br> 
-
-			Magazines and Brochures</h4>
+                            <h4><span class="counter">333</span><br> Magazines and Brochures</h4>
                         </div>
                     </div>
                 </div>
@@ -469,7 +489,7 @@ _________________________________________________________ -->
 
                     <div id="detail">
 
-                        <span class="close">&times;</span> 
+                        <span class="close">&times;</span>
 
                         <div id="detail-slider"></div>
 
@@ -490,18 +510,23 @@ _________________________________________________________ -->
                                     <img src="img/portfolio-1.jpg" class="img-responsive" alt="" />
 
                                     <div class="overlay">
-                                        <h3 class="reference-title">Project name</h3> 
+                                        <h3 class="reference-title">Project name</h3>
                                         <p>Short project description goes here...</p>
                                     </div>
                                 </a>
 
                                 <div class="sr-only reference-description" data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg">
 
-                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour
-                                        explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from
+                                        long why cold. If must snug by upon sang loud left. As me do preference entreaties
+                                        compliment motionless ye literature. Day behaviour explained law remainder. Produce
+                                        can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
 
-                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies
-                                        talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending
+                                        objection happiness something the. Off nay impossible dispatched partiality unaffected.
+                                        Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she
+                                        distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by.
+                                        Sex scale sir style truth ought.</p>
 
                                     <p class="buttons">
                                         <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
@@ -516,18 +541,23 @@ _________________________________________________________ -->
                                     <img src="img/portfolio-2.jpg" class="img-responsive" alt="" />
 
                                     <div class="overlay">
-                                        <h3 class="reference-title">Project name</h3> 
+                                        <h3 class="reference-title">Project name</h3>
                                         <p>Short project description goes here...</p>
                                     </div>
                                 </a>
 
                                 <div class="sr-only reference-description" data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg">
 
-                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour
-                                        explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from
+                                        long why cold. If must snug by upon sang loud left. As me do preference entreaties
+                                        compliment motionless ye literature. Day behaviour explained law remainder. Produce
+                                        can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
 
-                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies
-                                        talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending
+                                        objection happiness something the. Off nay impossible dispatched partiality unaffected.
+                                        Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she
+                                        distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by.
+                                        Sex scale sir style truth ought.</p>
 
                                     <p class="buttons">
                                         <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
@@ -543,18 +573,23 @@ _________________________________________________________ -->
                                     <img src="img/portfolio-3.jpg" class="img-responsive" alt="" />
 
                                     <div class="overlay">
-                                        <h3 class="reference-title">Project name</h3> 
+                                        <h3 class="reference-title">Project name</h3>
                                         <p>Short project description goes here...</p>
                                     </div>
                                 </a>
 
                                 <div class="sr-only reference-description" data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg">
 
-                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour
-                                        explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from
+                                        long why cold. If must snug by upon sang loud left. As me do preference entreaties
+                                        compliment motionless ye literature. Day behaviour explained law remainder. Produce
+                                        can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
 
-                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies
-                                        talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending
+                                        objection happiness something the. Off nay impossible dispatched partiality unaffected.
+                                        Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she
+                                        distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by.
+                                        Sex scale sir style truth ought.</p>
 
                                     <p class="buttons">
                                         <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
@@ -571,18 +606,23 @@ _________________________________________________________ -->
                                     <img src="img/portfolio-4.jpg" class="img-responsive" alt="" />
 
                                     <div class="overlay">
-                                        <h3 class="reference-title">Project name</h3> 
+                                        <h3 class="reference-title">Project name</h3>
                                         <p>Short project description goes here...</p>
                                     </div>
                                 </a>
 
                                 <div class="sr-only reference-description" data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg">
 
-                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour
-                                        explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from
+                                        long why cold. If must snug by upon sang loud left. As me do preference entreaties
+                                        compliment motionless ye literature. Day behaviour explained law remainder. Produce
+                                        can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
 
-                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies
-                                        talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending
+                                        objection happiness something the. Off nay impossible dispatched partiality unaffected.
+                                        Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she
+                                        distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by.
+                                        Sex scale sir style truth ought.</p>
 
                                     <p class="buttons">
                                         <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
@@ -598,18 +638,23 @@ _________________________________________________________ -->
                                     <img src="img/portfolio-5.jpg" class="img-responsive" alt="" />
 
                                     <div class="overlay">
-                                        <h3 class="reference-title">Project name</h3> 
+                                        <h3 class="reference-title">Project name</h3>
                                         <p>Short project description goes here...</p>
                                     </div>
                                 </a>
 
                                 <div class="sr-only reference-description" data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg">
 
-                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour
-                                        explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from
+                                        long why cold. If must snug by upon sang loud left. As me do preference entreaties
+                                        compliment motionless ye literature. Day behaviour explained law remainder. Produce
+                                        can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
 
-                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies
-                                        talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending
+                                        objection happiness something the. Off nay impossible dispatched partiality unaffected.
+                                        Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she
+                                        distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by.
+                                        Sex scale sir style truth ought.</p>
 
                                     <p class="buttons">
                                         <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
@@ -626,18 +671,23 @@ _________________________________________________________ -->
                                     <img src="img/portfolio-6.jpg" class="img-responsive" alt="" />
 
                                     <div class="overlay">
-                                        <h3 class="reference-title">Project name</h3> 
+                                        <h3 class="reference-title">Project name</h3>
                                         <p>Short project description goes here...</p>
                                     </div>
                                 </a>
 
                                 <div class="sr-only reference-description" data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg">
 
-                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour
-                                        explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from
+                                        long why cold. If must snug by upon sang loud left. As me do preference entreaties
+                                        compliment motionless ye literature. Day behaviour explained law remainder. Produce
+                                        can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
 
-                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies
-                                        talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending
+                                        objection happiness something the. Off nay impossible dispatched partiality unaffected.
+                                        Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she
+                                        distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by.
+                                        Sex scale sir style truth ought.</p>
 
                                     <p class="buttons">
                                         <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
@@ -654,18 +704,23 @@ _________________________________________________________ -->
                                     <img src="img/portfolio-7.jpg" class="img-responsive" alt="" />
 
                                     <div class="overlay">
-                                        <h3 class="reference-title">Project name</h3> 
+                                        <h3 class="reference-title">Project name</h3>
                                         <p>Short project description goes here...</p>
                                     </div>
                                 </a>
 
                                 <div class="sr-only reference-description" data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg">
 
-                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour
-                                        explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from
+                                        long why cold. If must snug by upon sang loud left. As me do preference entreaties
+                                        compliment motionless ye literature. Day behaviour explained law remainder. Produce
+                                        can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
 
-                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies
-                                        talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending
+                                        objection happiness something the. Off nay impossible dispatched partiality unaffected.
+                                        Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she
+                                        distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by.
+                                        Sex scale sir style truth ought.</p>
 
                                     <p class="buttons">
                                         <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
@@ -681,18 +736,23 @@ _________________________________________________________ -->
                                     <img src="img/portfolio-8.jpg" class="img-responsive" alt="" />
 
                                     <div class="overlay">
-                                        <h3 class="reference-title">Project name</h3> 
+                                        <h3 class="reference-title">Project name</h3>
                                         <p>Short project description goes here...</p>
                                     </div>
                                 </a>
 
                                 <div class="sr-only reference-description" data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg">
 
-                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour
-                                        explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from
+                                        long why cold. If must snug by upon sang loud left. As me do preference entreaties
+                                        compliment motionless ye literature. Day behaviour explained law remainder. Produce
+                                        can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
 
-                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies
-                                        talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending
+                                        objection happiness something the. Off nay impossible dispatched partiality unaffected.
+                                        Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she
+                                        distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by.
+                                        Sex scale sir style truth ought.</p>
 
                                     <p class="buttons">
                                         <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
@@ -737,25 +797,29 @@ _________________________________________________________ -->
 
                         <div class="col-sm-4 col-md-2  col-xs-6">
                             <div class="customer">
-                                <img class="img-responsive" src="img/customers/cslink.png" title="CS Link" data-placement="bottom" data-toggle="tooltip" alt="">
+                                <img class="img-responsive" src="img/customers/cslink.png" title="CS Link" data-placement="bottom" data-toggle="tooltip"
+                                    alt="">
                             </div>
                         </div>
 
                         <div class="col-sm-4 col-md-2  col-xs-6">
                             <div class="customer">
-                                <img class="img-responsive" src="img/customers/botas66.png" title="Botas 66 Concept store" data-placement="bottom" data-toggle="tooltip" alt="">
+                                <img class="img-responsive" src="img/customers/botas66.png" title="Botas 66 Concept store" data-placement="bottom" data-toggle="tooltip"
+                                    alt="">
                             </div>
                         </div>
 
                         <div class="col-sm-4 col-md-2  col-xs-6">
                             <div class="customer">
-                                <img class="img-responsive" src="img/customers/mdfc.png" title="MediaFabríca" data-placement="bottom" data-toggle="tooltip" alt="">
+                                <img class="img-responsive" src="img/customers/mdfc.png" title="MediaFabríca" data-placement="bottom" data-toggle="tooltip"
+                                    alt="">
                             </div>
                         </div>
 
                         <div class="col-sm-4 col-md-2  col-xs-6">
                             <div class="customer">
-                                <img class="img-responsive" src="img/customers/vanek.png" title="VANĚK Strojírenská výroba" data-placement="bottom" data-toggle="tooltip" alt="">
+                                <img class="img-responsive" src="img/customers/vanek.png" title="VANĚK Strojírenská výroba" data-placement="bottom" data-toggle="tooltip"
+                                    alt="">
                             </div>
                         </div>
 
@@ -863,10 +927,10 @@ _________________________________________________________ -->
                     </div>
 
                     <div class="col-sm-12">
-                        <p class="template-bootstrapious">Template by <a href="http://bootstrapious.com/free-templates">Bootstrapious</a></p>
-                        
+                        <p class="template-bootstrapious">Template by <a href="http://bootstrapious.com/free-templates">Bootstrapious </a></p>
+
                         <!-- Not removing these links is part of the license conditions of the template. Thanks for understanding :) -->
-                        
+
                     </div>
 
                 </div>
@@ -918,11 +982,6 @@ _________________________________________________________ -->
     <!-- main js file -->
 
     <script src="js/front.js"></script>
-
-    
-
-
-
 </body>
 
 </html>
