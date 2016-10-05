@@ -34,6 +34,7 @@
     <script src="js/modernizr-2.6.2.min.js"></script>
     <!--Angular JS-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="js/ui-bootstrap-tpls-2.1.4.min.js"></script>
     <script src="js/app.js"></script>
     <!-- Responsivity for older IE -->
     <!--[if lt IE 9]>
@@ -61,20 +62,13 @@ _________________________________________________________ -->
             <div class="navbar-collapse collapse" id="navigation">
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#intro">Intro</a>
-                    </li>
-                    <li><a href="#about">About</a>
-                    </li>
-                    <li><a href="#services">Services</a>
-                    </li>
-                    <li><a href="#testimonials">Testimonials</a>
-                    </li>
-                    <li><a href="#references">My work</a>
-                    </li>
-                    <li><a href="#customers">Clients</a>
-                    </li>
-                    <li><a href="#contact">Contact</a>
-                    </li>
+                    <li class="active"><a href="#intro">Intro</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#references">My work</a></li>
+                    <li><a href="#customers">Clients</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <!--/.nav-collapse -->
@@ -91,7 +85,7 @@ _________________________________________________________ -->
 
         <!-- *** INTRO IMAGE ***
 _________________________________________________________ -->
-        <div id="intro" class="clearfix">
+        <div id="intro" class="clearfix" ng-controller="GeneralController as gral">
             <div class="item">
                 <div class="container">
                     <div class="row">
@@ -104,8 +98,13 @@ _________________________________________________________ -->
                                 <!--<img src="img/logo-big.png" alt="logo" width="130">-->
                                 <img src="img/devAvatar.png" alt="logo" width="260">
                             </div>
-                            <!--</br>
-                            <h1 data-animate="fadeInDown">Hello, hola, नमस्ते !</h1>
+                            </br>
+                            <p data-animate="slideInUp" class="botonHome">
+                                <a href="#contact" class="btn btn-default btn-green btn-lg scrollTo">Hire Me</a>
+                                <a class="btn btn-default btn-green btn-lg scrollTo" ng-click="gral.abrirResume()">My Resume</a>
+                           </p>
+                            
+                            <!--<h1 data-animate="fadeInDown">Hello, hola, नमस्ते !</h1>
                             <h2 data-animate="slideInUp">I grind HTML and CSS and then weld them with PHP into beautiful and efficient websites.</h2>-->
                         </div>
                     </div>
@@ -922,12 +921,12 @@ _________________________________________________________ -->
                     </div>
                     <!-- /.6 -->
 
-                    <div class="col-sm-6">
-                        <p>&copy; 2015 Your name goes here. All rights reserved.</p>
+                    <div class="col-sm-6" ng-controller="GeneralController as gral">
+                        <p>&copy; {{gral.fecha | date: 'yyyy'}} Josue Martinez. All rights reserved.</p>
                     </div>
 
                     <div class="col-sm-12">
-                        <p class="template-bootstrapious">Template by <a href="http://bootstrapious.com/free-templates">Bootstrapious </a></p>
+                        <!--<p class="template-bootstrapious">Template by <a href="http://bootstrapious.com/free-templates">Bootstrapious </a></p>-->
 
                         <!-- Not removing these links is part of the license conditions of the template. Thanks for understanding :) -->
 
