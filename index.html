@@ -20,13 +20,13 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Theme stylesheet -->
     <link href="css/style.green.css" rel="stylesheet" id="theme-stylesheet">
-  
+
     <!-- owl carousel css -->
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/owl.theme.css" rel="stylesheet">
     <!-- CSS Animations -->
     <link href="css/animate.css" rel="stylesheet">
-      <!-- Custom stylesheet - for your changes -->
+    <!-- Custom stylesheet - for your changes -->
     <link href="css/custom.css" rel="stylesheet">
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon_it.png" type="image/x-icon">
@@ -117,21 +117,22 @@ _________________________________________________________ -->
 
                     <div class="col-sm-12">
                         <div class="row">
-                            <div class="col-sm-6 text-left" data-animate="fadeInUp">                                
+                            <div class="col-sm-6 text-left" data-animate="fadeInUp">
                                 <p>
-                                    I'm a software and web developer based in the Dominican Republic, 
-                                    actually employed by Cementos Cibao and assisting many clients as
-                                    an outsource developer and consultant.  I build and develop efficient apps, 
-                                    helping to improve my clients' businesses.  
+                                    I'm a software and web developer based in the Dominican Republic, currently employed by Cementos Cibao and assisting many
+                                    clients as an outsource developer and consultant. I build and develop efficient apps,
+                                    helping to improve my clients' businesses.
                                 </p>
                                 <p>
-                                    I own a degree in Computer Science from Pontificia Universidad Catolica Madre y Maestra (PUCMM).
-                                    I'm primarily a back-end developer, with fountain of knowledge in .net Framework, database design, 
-                                    Web API, Bootstrap and JavaScript.
+                                    I own a degree in Computer Science from Pontificia Universidad Catolica Madre y Maestra (PUCMM). I'm primarily a back-end
+                                    developer, with fountain of knowledge in .net Framework, database design, Web API, Bootstrap
+                                    and JavaScript.
                                 </p>
                                 <p>
-                                    So if your business needs a new website, mobile app, or any other software related solution <a href="#contact">get in touch with me</a>
-                                     and we will have a chat. 
+                                    So if your business needs a new website, mobile app, or any other software related solution
+                                    <a
+                                        href="#contact">get in touch with me</a>
+                                        and we will have a chat.
                                 </p>
                             </div>
 
@@ -139,8 +140,7 @@ _________________________________________________________ -->
                             <div class="col-sm-6" data-animate="fadeInUp">
                                 <div class="skill-item">
                                     <div class="progress-title">
-                                        <i class="fa fa-windows" aria-hidden="true"></i>
-                                        .Net Framework  
+                                        <i class="fa fa-windows" aria-hidden="true"></i> .Net Framework
                                     </div>
                                     <div class="progress">
                                         <div class="progress-bar progress-bar-skill1" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
@@ -152,8 +152,7 @@ _________________________________________________________ -->
 
                                 <div class="skill-item">
                                     <div class="progress-title">
-                                        <i class="fa fa-database" aria-hidden="true"></i>
-                                        Database Design  
+                                        <i class="fa fa-database" aria-hidden="true"></i> Database Design
                                     </div>
                                     <div class="progress">
                                         <div class="progress-bar progress-bar-skill2" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
@@ -165,8 +164,7 @@ _________________________________________________________ -->
 
                                 <div class="skill-item">
                                     <div class="progress-title">
-                                        <i class="fa fa-desktop" aria-hidden="true"></i>
-                                        Front-End Development
+                                        <i class="fa fa-desktop" aria-hidden="true"></i> Front-End Development
                                     </div>
                                     <div class="progress">
                                         <div class="progress-bar progress-bar-skill3" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
@@ -178,8 +176,7 @@ _________________________________________________________ -->
 
                                 <div class="skill-item">
                                     <div class="progress-title">
-                                        <i class="fa fa-cloud" aria-hidden="true"></i>
-                                        Web API
+                                        <i class="fa fa-cloud" aria-hidden="true"></i> Web API
                                     </div>
                                     <div class="progress">
                                         <div class="progress-bar progress-bar-skill4" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
@@ -191,8 +188,7 @@ _________________________________________________________ -->
 
                                 <div class="skill-item">
                                     <div class="progress-title">
-                                        <i class="fa fa-mobile" aria-hidden="true"></i>
-                                        Mobile
+                                        <i class="fa fa-mobile" aria-hidden="true"></i> Mobile
                                     </div>
                                     <div class="progress">
                                         <div class="progress-bar progress-bar-skill5" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"
@@ -211,12 +207,30 @@ _________________________________________________________ -->
                         <!--<img src="img/about.jpg" class="image img-circle img-responsive" alt="This is me - IT worker">-->
                         <img src="img/me.jpg" class="image img-circle img-responsive" alt="This is me - IT worker">
                     </div>
-                    
+
                 </div>
                 <p data-animate="slideInUp" class="botonHome">
-                        <a href="#contact" class="btn btn-primary btn-lg scrollTo">Hire Me</a>
-                        <a class="btn btn-primary btn-lg scrollTo" ng-click="gral.abrirResume()">My Resume</a>
-                    </p>
+                    <a href="#contact" class="btn btn-primary btn-lg scrollTo">Hire Me</a>
+                    <a class="btn btn-primary btn-lg scrollTo" data-toggle="modal" data-target=".resume-modal">My Resume</a>
+                </p>
+                <!--*** RESUME ***-->
+                <div class="modal fade resume-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Resume</h4>
+                            </div>
+                            <div class="modal-body">
+                                <iframe src="resume/resume.pdf#view=FitH" height="100%" width="100%"></iframe>
+                            </div>
+                            <!--<div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+                <!--*** RESUME END ***-->
             </div>
         </div>
         <!-- /#about -->
@@ -248,7 +262,8 @@ _________________________________________________________ -->
                             <h3 class="heading">HTML coding</h3>
                             <p>Manor we shall merit by chief wound no or would. Oh towards between subject passage sending mention
                                 or it. Sight happy do burst fruit to woody begin at. Assurance perpetual he in oh determine
-                                as.</p>
+                                as.
+                            </p>
                         </div>
 
                         <div class="col-md-4" data-animate="fadeInUp">
@@ -280,137 +295,7 @@ _________________________________________________________ -->
         </div>
         <!-- /.section -->
 
-        <!-- *** SERVICES END *** -->
-
-        <!-- *** TESTIMONIALS ***
-_________________________________________________________ -->
-
-        <div class="section text-gray" id="testimonials" data-animate="fadeInUp">
-
-            <div class="container">
-                <div class="col-md-12">
-
-                    <div class="mb20">
-                        <h2 class="title" data-animate="fadeInUp">My customers said<br /><span>about me</span></h2>
-
-                        <p class="lead text-center" data-animate="fadeInUp">I am always glad to hear that my customers leave satisfied. Some of them shared with you their insights
-                            on our cooperation.</p>
-                    </div>
-
-                    <ul class="owl-carousel testimonials same-height-row" data-animate="fadeInUp">
-                        <li class="item">
-                            <div class="testimonial same-height-always">
-                                <div class="text">
-                                    <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed
-                                        in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted
-                                        his head a little he could see his brown belly, slightly domed and divided by arches
-                                        into stiff sections.</p>
-                                </div>
-                                <div class="bottom">
-                                    <div class="icon"><i class="fa fa-quote-left"></i>
-                                    </div>
-                                    <div class="name-picture">
-                                        <img class="" alt="" src="img/person-1.jpg">
-                                        <h5>John McIntyre</h5>
-                                        <p>CEO, TransTech</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="item">
-                            <div class="testimonial same-height-always">
-                                <div class="text">
-                                    <p>The bedding was hardly able to cover it and seemed ready to slide off any moment. His
-                                        many legs, pitifully thin compared with the size of the rest of him, waved about
-                                        helplessly as he looked. "What's happened to me? " he thought. It wasn't a dream.</p>
-                                </div>
-                                <div class="bottom">
-                                    <div class="icon"><i class="fa fa-quote-left"></i>
-                                    </div>
-                                    <div class="name-picture">
-                                        <img class="" alt="" src="img/person-2.jpg">
-                                        <h5>John McIntyre</h5>
-                                        <p>CEO, TransTech</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="item">
-                            <div class="testimonial same-height-always">
-                                <div class="text">
-                                    <p>His room, a proper human room although a little too small, lay peacefully between its
-                                        four familiar walls.</p>
-
-                                    <p>A collection of textile samples lay spread out on the table - Samsa was a travelling
-                                        salesman - and above it there hung a picture that he had recently cut out of an illustrated
-                                        magazine and housed in a nice, gilded frame.
-                                    </p>
-                                </div>
-                                <div class="bottom">
-                                    <div class="icon"><i class="fa fa-quote-left"></i>
-                                    </div>
-                                    <div class="name-picture">
-                                        <img class="" alt="" src="img/person-3.jpg">
-                                        <h5>John McIntyre</h5>
-                                        <p>CEO, TransTech</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="item">
-                            <div class="testimonial same-height-always">
-                                <div class="text">
-                                    <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy
-                                        fur muff that covered the whole of her lower arm towards the viewer. Gregor then
-                                        turned to look out the window at the dull weather. Drops of rain could be heard hitting
-                                        the pane, which made him feel quite sad.</p>
-                                </div>
-
-                                <div class="bottom">
-                                    <div class="icon"><i class="fa fa-quote-left"></i>
-                                    </div>
-                                    <div class="name-picture">
-                                        <img class="" alt="" src="img/person-4.jpg">
-                                        <h5>John McIntyre</h5>
-                                        <p>CEO, TransTech</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="item">
-                            <div class="testimonial same-height-always">
-                                <div class="text">
-                                    <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy
-                                        fur muff that covered the whole of her lower arm towards the viewer. Gregor then
-                                        turned to look out the window at the dull weather. Drops of rain could be heard hitting
-                                        the pane, which made him feel quite sad. Gregor then turned to look out the window
-                                        at the dull weather. Drops of rain could be heard hitting the pane, which made him
-                                        feel quite sad.
-                                    </p>
-                                </div>
-
-                                <div class="bottom">
-                                    <div class="icon"><i class="fa fa-quote-left"></i>
-                                    </div>
-                                    <div class="name-picture">
-                                        <img class="" alt="" src="img/person-4.jpg">
-                                        <h5>John McIntyre</h5>
-                                        <p>CEO, TransTech</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                    <!-- /.owl-carousel -->
-                </div>
-                <!-- /.12 -->
-            </div>
-            <!-- /.container -->
-
-        </div>
-        <!-- /.section -->
-
-        <!-- *** TESTIMONIALS END *** -->
+        <!-- *** SERVICES END *** -->       
 
         <!-- *** SHOWCASE ***
 _________________________________________________________ -->
@@ -832,6 +717,138 @@ _________________________________________________________ -->
         <!-- /.section -->
 
         <!-- *** CUSTOMERS END *** -->
+
+         <!-- *** TESTIMONIALS ***
+_________________________________________________________ -->
+
+        <div class="section text-gray" id="testimonials" data-animate="fadeInUp">
+
+            <div class="container">
+                <div class="col-md-12">
+
+                    <div class="mb20">
+                        <h2 class="title" data-animate="fadeInUp">My customers said<br /><span>about me</span></h2>
+
+                        <p class="lead text-center" data-animate="fadeInUp">I am always glad to hear that my customers leave satisfied. Some of them shared with you their insights
+                            on our cooperation.</p>
+                    </div>
+
+                    <ul class="owl-carousel testimonials same-height-row" data-animate="fadeInUp">
+                        <li class="item">
+                            <div class="testimonial same-height-always">
+                                <div class="text">
+                                    <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed
+                                        in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted
+                                        his head a little he could see his brown belly, slightly domed and divided by arches
+                                        into stiff sections.</p>
+                                </div>
+                                <div class="bottom">
+                                    <div class="icon"><i class="fa fa-quote-left"></i>
+                                    </div>
+                                    <div class="name-picture">
+                                        <img class="" alt="" src="img/person-1.jpg">
+                                        <h5>John McIntyre</h5>
+                                        <p>CEO, TransTech</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="testimonial same-height-always">
+                                <div class="text">
+                                    <p>The bedding was hardly able to cover it and seemed ready to slide off any moment. His
+                                        many legs, pitifully thin compared with the size of the rest of him, waved about
+                                        helplessly as he looked. "What's happened to me? " he thought. It wasn't a dream.</p>
+                                </div>
+                                <div class="bottom">
+                                    <div class="icon"><i class="fa fa-quote-left"></i>
+                                    </div>
+                                    <div class="name-picture">
+                                        <img class="" alt="" src="img/person-2.jpg">
+                                        <h5>John McIntyre</h5>
+                                        <p>CEO, TransTech</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="testimonial same-height-always">
+                                <div class="text">
+                                    <p>His room, a proper human room although a little too small, lay peacefully between its
+                                        four familiar walls.</p>
+
+                                    <p>A collection of textile samples lay spread out on the table - Samsa was a travelling
+                                        salesman - and above it there hung a picture that he had recently cut out of an illustrated
+                                        magazine and housed in a nice, gilded frame.
+                                    </p>
+                                </div>
+                                <div class="bottom">
+                                    <div class="icon"><i class="fa fa-quote-left"></i>
+                                    </div>
+                                    <div class="name-picture">
+                                        <img class="" alt="" src="img/person-3.jpg">
+                                        <h5>John McIntyre</h5>
+                                        <p>CEO, TransTech</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="testimonial same-height-always">
+                                <div class="text">
+                                    <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy
+                                        fur muff that covered the whole of her lower arm towards the viewer. Gregor then
+                                        turned to look out the window at the dull weather. Drops of rain could be heard hitting
+                                        the pane, which made him feel quite sad.</p>
+                                </div>
+
+                                <div class="bottom">
+                                    <div class="icon"><i class="fa fa-quote-left"></i>
+                                    </div>
+                                    <div class="name-picture">
+                                        <img class="" alt="" src="img/person-4.jpg">
+                                        <h5>John McIntyre</h5>
+                                        <p>CEO, TransTech</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="testimonial same-height-always">
+                                <div class="text">
+                                    <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy
+                                        fur muff that covered the whole of her lower arm towards the viewer. Gregor then
+                                        turned to look out the window at the dull weather. Drops of rain could be heard hitting
+                                        the pane, which made him feel quite sad. Gregor then turned to look out the window
+                                        at the dull weather. Drops of rain could be heard hitting the pane, which made him
+                                        feel quite sad.
+                                    </p>
+                                </div>
+
+                                <div class="bottom">
+                                    <div class="icon"><i class="fa fa-quote-left"></i>
+                                    </div>
+                                    <div class="name-picture">
+                                        <img class="" alt="" src="img/person-4.jpg">
+                                        <h5>John McIntyre</h5>
+                                        <p>CEO, TransTech</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- /.owl-carousel -->
+                </div>
+                <!-- /.12 -->
+            </div>
+            <!-- /.container -->
+
+        </div>
+        <!-- /.section -->
+
+        <!-- *** TESTIMONIALS END *** -->
+
+
 
         <!-- *** CONTACT ***
 _________________________________________________________ -->
