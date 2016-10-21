@@ -1,8 +1,7 @@
 
 p.botonHome > a {
-    margin-right: 40px;
-    margin-left:40p;
-    margin-top: 80px;
+    margin-left: 20px;
+    margin-top: 40px;
 }
 
 .btn-green{
@@ -21,4 +20,9 @@ p.botonHome > a {
     height: 90%;
     max-height: calc(100% - 80px);
     overflow-y: scroll;
+}
+
+.portfolio-logo{
+    max-height: 200px;
+    max-width: 270px;
 }

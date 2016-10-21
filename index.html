@@ -18,6 +18,7 @@
     <!-- Bootstrap and Font Awesome css -->
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
     <!-- Theme stylesheet -->
     <link href="css/style.green.css" rel="stylesheet" id="theme-stylesheet">
 
@@ -205,8 +206,7 @@ _________________________________________________________ -->
 
                     <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 mt-big" data-animate="bounceIn">
                         <!--<img src="img/about.jpg" class="image img-circle img-responsive" alt="This is me - IT worker">-->
-                        <img src="img/me4.jpg" class="image img-circle img-responsive" alt="This is me - IT worker">
-                        <!--<img src="img/me5.jpg" class="image img-circle img-responsive" alt="This is me - IT worker">-->
+                        <img src="img/me/me4.jpg" class="image img-circle img-responsive" alt="">
                     </div>
 
                 </div>
@@ -223,15 +223,7 @@ _________________________________________________________ -->
                                 <h4 class="modal-title">Resume</h4>
                             </div>
                             <div class="modal-body">
-
-                                <!--resume local-->
-                                <!--<iframe src="resume/resume.pdf#view=FitH" height="100%" width="100%"></iframe>-->
-                                <iframe src="resume/Josue Martinez - Resume.pdf#view=FitH" height="100%" width="100%"></iframe>
-
-                                <!--desde onedrive-->
-                                <!--<iframe src="https://onedrive.live.com/embed?cid=1D6E413E0C4E39E2&resid=1D6E413E0C4E39E2%21300856&authkey=AEQ8VsIZ2JoNORE&em=2#view=FitH"                                 
-                                    width="100%" height="100%" ></iframe>-->
-
+                                <iframe src="resume/resume.pdf#zoom=100" height="100%" width="100%"></iframe>
                             </div>
                             <!--<div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -355,306 +347,166 @@ _________________________________________________________ -->
                     <div class="mb20">
                         <h2 class="title" data-animate="fadeInUp">My work</h2>
 
-                        <p class="lead" data-animate="fadeInUp">I have worked on dozens of projects so I have picked only the latest for you.</p>
+                        <p class="lead" data-animate="fadeInUp">I have worked on dozens of projects so I have picked only the latest on different categories for you.</p>
                     </div>
 
                     <ul id="filter" data-animate="fadeInUp">
-                        <li class="active"><a href="#" data-filter="all">All</a>
-                        </li>
-                        <li><a href="#" data-filter="webdesign">Webdesign</a>
-                        </li>
-                        <li><a href="#" data-filter="seo">SEO</a>
-                        </li>
-                        <li><a href="#" data-filter="marketing">Marketing</a>
-                        </li>
-                        <li><a href="#" data-filter="other">Other</a>
-                        </li>
+                        <li class="active"><a href="#" data-filter="all">All</a></li>
+                        <li><a href="#" data-filter="general">General</a></li>
+                        <li><a href="#" data-filter="administrative">Administrative</a></li>
+                        <li><a href="#" data-filter="ecommerce">eCommerce</a></li>
                     </ul>
 
                     <div id="detail">
-
                         <span class="close">&times;</span>
-
                         <div id="detail-slider"></div>
-
                         <div class="text-center">
                             <h1 id="detail-title">&nbsp;</h1>
                         </div>
-
                         <div id="detail-content"></div>
-
                     </div>
                     <!-- Reference detail -->
 
                     <div id="references-masonry" data-animate="fadeInUp">
-
-                        <div class="reference-item" data-category="webdesign">
+                        <!--CABSPOT-->
+                        <div class="reference-item" data-category="general">
                             <div class="reference">
                                 <a href="#">
-                                    <img src="img/portfolio-1.jpg" class="img-responsive" alt="" />
-
+                                    <img src="img/portfolio/cabspot/cabspot.jpg" class="img-responsive portfolio-logo" alt="" />
                                     <div class="overlay">
-                                        <h3 class="reference-title">Project name</h3>
-                                        <p>Short project description goes here...</p>
+                                        <h3 class="reference-title">CabSpot</h3>
+                                        <p>Connecting clients with cabs through a mobile app</p>
                                     </div>
                                 </a>
+                                <div class="sr-only reference-description" data-images="img/portfolio/cabspot/login.jpg,img/portfolio/cabspot/homeweb.jpg">
+                                    <p>Is a software with the main objective of improve the process of getting a cab in the Dominican Republic.
+                                        Communicating drivers and clients with no human intervention in any stage of the process. This system cosists of
+                                        multiple parts that form an automatic platform capable of managing cab requests spoting the closest available and
+                                        best rated unit. Both drivers and clients have a mobile app for this interactions.</p>
 
-                                <div class="sr-only reference-description" data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg">
-
-                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from
-                                        long why cold. If must snug by upon sang loud left. As me do preference entreaties
-                                        compliment motionless ye literature. Day behaviour explained law remainder. Produce
-                                        can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
-
-                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending
-                                        objection happiness something the. Off nay impossible dispatched partiality unaffected.
-                                        Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she
-                                        distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by.
-                                        Sex scale sir style truth ought.</p>
-
+                                    <p>Administrative offices count with a back office interface that allows them to control drivers, cars and their locations.
+                                        Cars have seat sensors to automatically mark drivers as free or occupied if anyone is seated.</p>
+                                    
+                                    <!--Technologies used-->
+                                    <em><b> Techologies used: </b></em>
+                                    <ul class="list-inline">
+                                        <li><span class="tag tag-pill tag-info">.net MVC 5</span></li>  <li><span class="tag tag-pill tag-info">.net Web-Api</span></li>
+                                        <li><span class="tag tag-pill tag-info">Entity Framework</span></li> <li><span class="tag tag-pill tag-info">Twilio</span></li>
+                                        <li><span class="tag tag-pill tag-info">MySQL</span></li> <li><span class="tag tag-pill tag-info">Azure</span></li>                                        
+                                    </ul>
+                                    <!--Technologies used-->
                                     <p class="buttons">
-                                        <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
-                                        <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-download"></i> Download case study</a>
+                                        <a class="btn btn-primary" target="blank" href="http://cabspotapi.azurewebsites.net/"><i class="fa fa-globe"></i>  Visit website</a>
+                                        <a class="btn btn-primary" href="https://www.youtube.com/watch?v=90ew6SlvAZ0"><i class="fa fa-youtube"></i>  Watch this video</a>
+                                        <a class="btn btn-primary" href="https://github.com/JosueMartinez/Cabspot"><i class="fa fa-github"></i>  Want to see code?</a>
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="reference-item" data-category="seo">
+                        <!--CABSPOT END-->
+
+                        <!--RBPTool-->
+                        <div class="reference-item" data-category="administrative">
                             <div class="reference">
                                 <a href="#">
-                                    <img src="img/portfolio-2.jpg" class="img-responsive" alt="" />
-
+                                    <img src="img/portfolio/rbptool/logo.jpg" class="img-responsive portfolio-logo" alt="" />
                                     <div class="overlay">
-                                        <h3 class="reference-title">Project name</h3>
-                                        <p>Short project description goes here...</p>
+                                        <h3 class="reference-title">RBP Tool</h3>
+                                        <p>Managing requirements, batches and production</p>
                                     </div>
                                 </a>
-
-                                <div class="sr-only reference-description" data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg">
-
-                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from
-                                        long why cold. If must snug by upon sang loud left. As me do preference entreaties
-                                        compliment motionless ye literature. Day behaviour explained law remainder. Produce
-                                        can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
-
-                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending
-                                        objection happiness something the. Off nay impossible dispatched partiality unaffected.
-                                        Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she
-                                        distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by.
-                                        Sex scale sir style truth ought.</p>
-
+                                <div class="sr-only reference-description" data-images="img/portfolio/rbptool/home.jpg">
+                                    <p>Requirements, Batches and Production Management Tool is a web based application built to maintain and manage
+                                        requirements and issues for all individual sites among a multinational enterprise. This tool is developed using .net Framework
+                                        (MVC with C#), Twitter Bootstrap was implemented for the front-end client. The Data Mode was build using Entity Framework
+                                        to interact with SQL Server database and LinQ helped with other SQ scripts..</p>
+                                    
+                                    <!--Technologies used-->
+                                    <em><b> Techologies used: </b></em>
+                                    <ul class="list-inline">
+                                        <li><span class="tag tag-pill tag-info">.net MVC</span></li>  <li><span class="tag tag-pill tag-info">JavaScript</span></li>
+                                        <li><span class="tag tag-pill tag-info">Entity Framework</span></li> <li><span class="tag tag-pill tag-info">Twitter Bootstrap</span></li>
+                                        <li><span class="tag tag-pill tag-info">SQL Server</span></li> <li><span class="tag tag-pill tag-info">SSRS</span></li>                                        
+                                    </ul>
+                                    <!--Technologies used-->
                                     <p class="buttons">
-                                        <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
-                                        <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-download"></i> Download case study</a>
+                                        <a class="btn btn-primary" href="https://github.com/JosueMartinez/Cabspot"><i class="fa fa-github"></i>  Want to see code?</a>
                                     </p>
                                 </div>
                             </div>
                         </div>
+                        <!--RBPTool END-->
 
-                        <div class="reference-item" data-category="marketing">
+                        <!--VIA-->
+                        <div class="reference-item" data-category="administrative">
                             <div class="reference">
                                 <a href="#">
-                                    <img src="img/portfolio-3.jpg" class="img-responsive" alt="" />
-
+                                    <img src="img/portfolio/via/logo.jpg" class="img-responsive portfolio-logo" alt="" />
                                     <div class="overlay">
-                                        <h3 class="reference-title">Project name</h3>
-                                        <p>Short project description goes here...</p>
+                                        <h3 class="reference-title">VIA</h3>
+                                        <p>Corporative app containing various tools to fulfill departments requirements and tasks.</p>
                                     </div>
                                 </a>
-
-                                <div class="sr-only reference-description" data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg">
-
-                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from
-                                        long why cold. If must snug by upon sang loud left. As me do preference entreaties
-                                        compliment motionless ye literature. Day behaviour explained law remainder. Produce
-                                        can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
-
-                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending
-                                        objection happiness something the. Off nay impossible dispatched partiality unaffected.
-                                        Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she
-                                        distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by.
-                                        Sex scale sir style truth ought.</p>
-
+                                <div class="sr-only reference-description" data-images="img/portfolio/rbptool/home.jpg">
+                                    <p>VIA App was designed to allocate all individual tools used for every different department on site, kind of an ERP or BackOffice.
+                                        It incudes modules for finance, accounting, Call Center, Sales and Marketing. This tool is developed around .net Framework
+                                        (MVC with C#), Twitter Bootstrap was implemented for the front-end client. The Data Mode was build using Entity Framework
+                                        to interact with SQL Server database and LinQ helped with other SQ scripts.</p>
+                                    
+                                    <!--Technologies used-->
+                                    <em><b> Techologies used: </b></em>
+                                    <ul class="list-inline">
+                                        <li><span class="tag tag-pill tag-info">.net MVC</span></li>  <li><span class="tag tag-pill tag-info">JavaScript</span></li>
+                                        <li><span class="tag tag-pill tag-info">Entity Framework</span></li> <li><span class="tag tag-pill tag-info">Twitter Bootstrap</span></li>
+                                        <li><span class="tag tag-pill tag-info">SQL Server</span></li> <li><span class="tag tag-pill tag-info">SSRS</span></li>                                        
+                                    </ul>
+                                    <!--Technologies used-->
                                     <p class="buttons">
-                                        <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
-                                        <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-download"></i> Download case study</a>
-                                    </p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="reference-item" data-category="marketing">
-                            <div class="reference">
-                                <a href="#">
-                                    <img src="img/portfolio-4.jpg" class="img-responsive" alt="" />
-
-                                    <div class="overlay">
-                                        <h3 class="reference-title">Project name</h3>
-                                        <p>Short project description goes here...</p>
-                                    </div>
-                                </a>
-
-                                <div class="sr-only reference-description" data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg">
-
-                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from
-                                        long why cold. If must snug by upon sang loud left. As me do preference entreaties
-                                        compliment motionless ye literature. Day behaviour explained law remainder. Produce
-                                        can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
-
-                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending
-                                        objection happiness something the. Off nay impossible dispatched partiality unaffected.
-                                        Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she
-                                        distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by.
-                                        Sex scale sir style truth ought.</p>
-
-                                    <p class="buttons">
-                                        <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
-                                        <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-download"></i> Download case study</a>
+                                        <a class="btn btn-primary" href="https://github.com/JosueMartinez/VIA"><i class="fa fa-github"></i>  Want to see code?</a>
                                     </p>
                                 </div>
                             </div>
                         </div>
+                        <!--VIA END-->
 
-                        <div class="reference-item" data-category="webdesign">
+                        <!--MULTIGOMAS-->
+                        <div class="reference-item" data-category="ecommerce">
                             <div class="reference">
                                 <a href="#">
-                                    <img src="img/portfolio-5.jpg" class="img-responsive" alt="" />
-
+                                    <img src="img/portfolio/multigomas/logo_small.jpg" class="img-responsive portfolio-logo" alt="" />
                                     <div class="overlay">
-                                        <h3 class="reference-title">Project name</h3>
-                                        <p>Short project description goes here...</p>
+                                        <h3 class="reference-title">MULTIGOMAS</h3>
+                                        <p>eCommerce for a tire shop</p>
                                     </div>
                                 </a>
-
-                                <div class="sr-only reference-description" data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg">
-
-                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from
-                                        long why cold. If must snug by upon sang loud left. As me do preference entreaties
-                                        compliment motionless ye literature. Day behaviour explained law remainder. Produce
-                                        can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
-
-                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending
-                                        objection happiness something the. Off nay impossible dispatched partiality unaffected.
-                                        Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she
-                                        distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by.
-                                        Sex scale sir style truth ought.</p>
-
+                                <div class="sr-only reference-description" data-images="img/portfolio/multigomas/home.jpg">
+                                    <p>My client owns a tire shop and he wanted to expand his business being able to sell online. Customers could register and start
+                                        searching for the perfect fit for their vehicle, place orders, online payment, etc. To fulfill this requirement I built this solution
+                                        using HTML5, CSS3 and JQuery for the front-end while using .net Razor engine with C# for the back-end. The persistence of
+                                        the application was handled on a SQL Server database.</p>
+                                    
+                                    <!--Technologies used-->
+                                    <em><b> Techologies used: </b></em>
+                                    <ul class="list-inline">
+                                        <li><span class="tag tag-pill tag-info">HTML5</span></li>  <li><span class="tag tag-pill tag-info">CSS3</span></li>
+                                        <li><span class="tag tag-pill tag-info">JQuery</span></li> <li><span class="tag tag-pill tag-info">Razor Engine</span></li>
+                                        <li><span class="tag tag-pill tag-info">SQL Server</span></li> <li><span class="tag tag-pill tag-info">C#</span></li>                                        
+                                    </ul>
+                                    <!--Technologies used-->
                                     <p class="buttons">
-                                        <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
-                                        <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-download"></i> Download case study</a>
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="reference-item" data-category="other">
-                            <div class="reference">
-                                <a href="#">
-                                    <img src="img/portfolio-6.jpg" class="img-responsive" alt="" />
-
-                                    <div class="overlay">
-                                        <h3 class="reference-title">Project name</h3>
-                                        <p>Short project description goes here...</p>
-                                    </div>
-                                </a>
-
-                                <div class="sr-only reference-description" data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg">
-
-                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from
-                                        long why cold. If must snug by upon sang loud left. As me do preference entreaties
-                                        compliment motionless ye literature. Day behaviour explained law remainder. Produce
-                                        can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
-
-                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending
-                                        objection happiness something the. Off nay impossible dispatched partiality unaffected.
-                                        Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she
-                                        distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by.
-                                        Sex scale sir style truth ought.</p>
-
-                                    <p class="buttons">
-                                        <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
-                                        <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-download"></i> Download case study</a>
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="reference-item" data-category="seo">
-                            <div class="reference">
-                                <a href="#">
-                                    <img src="img/portfolio-7.jpg" class="img-responsive" alt="" />
-
-                                    <div class="overlay">
-                                        <h3 class="reference-title">Project name</h3>
-                                        <p>Short project description goes here...</p>
-                                    </div>
-                                </a>
-
-                                <div class="sr-only reference-description" data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg">
-
-                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from
-                                        long why cold. If must snug by upon sang loud left. As me do preference entreaties
-                                        compliment motionless ye literature. Day behaviour explained law remainder. Produce
-                                        can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
-
-                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending
-                                        objection happiness something the. Off nay impossible dispatched partiality unaffected.
-                                        Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she
-                                        distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by.
-                                        Sex scale sir style truth ought.</p>
-
-                                    <p class="buttons">
-                                        <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
-                                        <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-download"></i> Download case study</a>
+                                        <a class="btn btn-primary" href="https://github.com/JosueMartinez/multigomas"><i class="fa fa-github"></i>  Want to see code?</a>
                                     </p>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="reference-item" data-category="webdesign">
-                            <div class="reference">
-                                <a href="#">
-                                    <img src="img/portfolio-8.jpg" class="img-responsive" alt="" />
-
-                                    <div class="overlay">
-                                        <h3 class="reference-title">Project name</h3>
-                                        <p>Short project description goes here...</p>
-                                    </div>
-                                </a>
-
-                                <div class="sr-only reference-description" data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg">
-
-                                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from
-                                        long why cold. If must snug by upon sang loud left. As me do preference entreaties
-                                        compliment motionless ye literature. Day behaviour explained law remainder. Produce
-                                        can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
-
-                                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending
-                                        objection happiness something the. Off nay impossible dispatched partiality unaffected.
-                                        Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she
-                                        distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by.
-                                        Sex scale sir style truth ought.</p>
-
-                                    <p class="buttons">
-                                        <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-globe"></i> Visit website</a>
-                                        <a class="btn btn-primary" href="javascript:void(0);"><i class="fa fa-download"></i> Download case study</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                        <!--MULTIGOMAS END-->
 
                     </div>
                     <!-- /#references-masonry -->
 
                 </div>
-                <!-- /.12 -->
             </div>
-            <!-- /.container -->
         </div>
-        <!-- /.section -->
 
         <!-- *** REFERENCES END *** -->
 
